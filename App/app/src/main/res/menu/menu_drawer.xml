@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item android:id="@+id/nav_new"     android:title="New File"  android:icon="@android:drawable/ic_menu_add"/>
+        <item android:id="@+id/nav_open"    android:title="Open File" android:icon="@android:drawable/ic_menu_upload"/>
+        <item android:id="@+id/nav_save"    android:title="Save File" android:icon="@android:drawable/ic_menu_save"/>
+    </group>
+
+    <group android:checkableBehavior="none">
+        <item android:id="@+id/nav_find"    android:title="Find / Replace" android:icon="@android:drawable/ic_menu_search"/>
+        <item android:id="@+id/nav_undo"    android:title="Undo"           android:icon="@android:drawable/ic_menu_revert"/>
+        <item android:id="@+id/nav_redo"    android:title="Redo"           android:icon="@android:drawable/ic_menu_rotate"/>
+    </group>
+
+    <group android:checkableBehavior="none">
+        <item android:id="@+id/nav_lang_kotlin" android:title="Language: Kotlin (default)" android:icon="@android:drawable/ic_menu_edit"/>
+        <item android:id="@+id/nav_lang_load"   android:title="Load Language Config (JSON/XML)" android:icon="@android:drawable/ic_menu_set_as"/>
+    </group>
+
+    <group android:checkableBehavior="none">
+        <item android:id="@+id/nav_compile"        android:title="Compile"             android:icon="@android:drawable/ic_media_play"/>
+        <item android:id="@+id/nav_compile_setup"  android:title="Compiler Endpoint…"  android:icon="@android:drawable/ic_menu_manage"/>
+    </group>
+
+    <group android:checkableBehavior="none">
+        <item android:id="@+id/nav_theme" android:title="Theme" android:icon="@android:drawable/ic_menu_day"/>
+    </group>
+</menu>

@@ -1,0 +1,12 @@
+{
+  "name": "Kotlin",
+  "keywords": [
+    "val","var","fun","class","object","interface","if","else","when",
+    "for","while","return","break","continue","try","catch","finally",
+    "is","in","as","this","super","package","import","private","public",
+    "protected","internal","data","sealed","enum","companion","null","true","false"
+  ],
+  "strings": ["\"", "'"],
+  "lineComment": "//",
+  "blockComment": { "start": "/*", "end": "*/" }
+}

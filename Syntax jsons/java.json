@@ -1,0 +1,11 @@
+{
+  "name": "Java",
+  "keywords": [
+    "class","public","private","protected","static","void","int","float","double","boolean","char","new",
+    "if","else","switch","case","for","while","do","break","continue","return",
+    "try","catch","finally","throw","throws","package","import","this","super","extends","implements","interface"
+  ],
+  "strings": ["\"", "'"],
+  "lineComment": "//",
+  "blockComment": { "start": "/*", "end": "*/" }
+}

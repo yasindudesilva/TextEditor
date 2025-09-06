@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_new"   android:title="New"   android:icon="@android:drawable/ic_menu_add"    app:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_open"  android:title="Open"  android:icon="@android:drawable/ic_menu_upload" app:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_save"  android:title="Save"  android:icon="@android:drawable/ic_menu_save"   app:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_find"  android:title="Find"  android:icon="@android:drawable/ic_menu_search" app:showAsAction="ifRoom"/>
+
+    <!-- Overflow -->
+    <item android:id="@+id/action_undo"  android:title="Undo"  app:showAsAction="never"/>
+    <item android:id="@+id/action_redo"  android:title="Redo"  app:showAsAction="never"/>
+    <item android:id="@+id/action_theme" android:title="Theme" app:showAsAction="never"/>
+</menu>

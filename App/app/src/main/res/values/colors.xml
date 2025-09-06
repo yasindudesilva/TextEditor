@@ -1,0 +1,17 @@
+<resources>
+    <!-- Brand: maroon / soft gold (can tweak) -->
+    <color name="md_primary">#80143C</color>
+    <color name="md_on_primary">#FFFFFF</color>
+    <color name="md_secondary">#F3B944</color>
+    <color name="md_on_secondary">#2B2B2B</color>
+
+
+    <color name="md_background">#F6F7F9</color>
+    <color name="md_on_background">#2B2B2B</color>
+    <color name="md_surface">#FFFFFF</color>
+    <color name="md_on_surface">#2B2B2B</color>
+
+
+    <color name="chip_bg">#1F2A44</color>
+    <color name="muted">#6B7280</color>
+</resources>

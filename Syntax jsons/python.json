@@ -1,0 +1,10 @@
+{
+  "name": "Python",
+  "keywords": [
+    "def","class","if","else","elif","for","while","return","import",
+    "from","as","try","except","finally","in","is","None","True","False","with","yield","lambda"
+  ],
+  "strings": ["\"", "'"],
+  "lineComment": "#",
+  "blockComment": { "start": "\"\"\"", "end": "\"\"\"" }
+}

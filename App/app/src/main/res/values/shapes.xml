@@ -1,0 +1,10 @@
+<resources>
+    <!-- Fallback so @style/ShapeOverlay resolves -->
+    <style name="ShapeOverlay">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <!-- Optional variant you can use later -->
+    <style name="ShapeOverlay.Rounded16" parent="ShapeOverlay" />
+</resources>
