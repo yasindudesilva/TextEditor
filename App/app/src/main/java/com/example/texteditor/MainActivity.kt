@@ -730,8 +730,14 @@ class MainActivity : AppCompatActivity() {
         fun makeOpenDocumentIntent(): Intent =
             Intent(Intent.ACTION_OPEN_DOCUMENT).apply {
                 addCategory(Intent.CATEGORY_OPENABLE)
-                type = "text/*"
-                putExtra(Intent.EXTRA_MIME_TYPES, arrayOf("text/plain", "text/x-kotlin", "text/x-java"))
+                type = "*/*"
+                putExtra(Intent.EXTRA_MIME_TYPES, arrayOf(
+                    "text/plain",
+                    "text/x-kotlin",
+                    "text/x-java",
+                    "application/octet-stream",
+                    "application/*"
+                ))
             }
         fun makeCreateDocumentIntent(suggestedName: String): Intent =
             Intent(Intent.ACTION_CREATE_DOCUMENT).apply {
